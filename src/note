@@ -1,0 +1,63 @@
+/* Basic Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styling for a minimalist look */
+.data {
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px; /* Adjust based on your preference */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Simple shadow for depth */
+}
+
+/* Styling inputs */
+.data input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Label styling */
+.data label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Button Styling */
+.data button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745; /* Bootstrap success color */
+  color: white;
+  cursor: pointer;
+}
+
+.data button:nth-child(4) { /* Assuming the Reset button is the 4th child */
+  background-color: #dc3545; /* Bootstrap danger color */
+  margin-top: 5px;
+}
+
+.data button:hover {
+  opacity: 0.9;
+}
+
+.text-success {
+  color: #28a745 !important; /* Ensuring Bootstrap's success color */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important; /* Bootstrap light background */
+}
